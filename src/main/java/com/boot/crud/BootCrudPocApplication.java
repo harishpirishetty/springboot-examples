@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.boot.crud.entity.Employee;
+import com.boot.crud.entity.EmployeeEntity;
 
 @SpringBootApplication
 @RestController

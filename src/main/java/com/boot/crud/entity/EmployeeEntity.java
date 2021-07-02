@@ -2,7 +2,7 @@ package com.boot.crud.entity;
 
 import java.util.Date;
 
-public class Employee {
+public class EmployeeEntity {
 	
 	private int employeeId;
 	private String firstName;
@@ -14,11 +14,11 @@ public class Employee {
 	private String deptName;
 	private int deptId;
 	
-	public Employee() {
+	public EmployeeEntity() {
 		super();
 	}
 
-	public Employee(int employeeId, String firstName, String lastName, Date dob, String address, String phnum,
+	public EmployeeEntity(int employeeId, String firstName, String lastName, Date dob, String address, String phnum,
 			String emailId, String deptName, int deptId) {
 		super();
 		this.employeeId = employeeId;

@@ -19,8 +19,8 @@ public class BootCrudPocApplication {
 		SpringApplication.run(BootCrudPocApplication.class, args);
 	}
 	@GetMapping("/employees")
-	 public List<Employee>  getEmployees() {
-		List<Employee> emplist = new ArrayList<>();
+	 public List<EmployeeEntity>  getEmployees() {
+		List<EmployeeEntity> emplist = new ArrayList<>();
 		
 		return emplist; 
 	 }
